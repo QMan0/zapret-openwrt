@@ -1,0 +1,498 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/dmnlog.js:20
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/dmnlog.js:129
+msgid "Unable to get log files"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/dmnlog.js:65
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/dmnlog.js:73
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/service.js:53
+msgid "Unable to execute or read contents"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/dmnlog.js:133
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/service.js:354
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:51
+msgid "Zapret"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/dmnlog.js:133
+msgid "Log Viewer"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/dmnlog.js:155
+msgid ""
+"Scroll to tail"
+"scroll to bottom (the tail) of the log file"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/dmnlog.js:164
+msgid ""
+"Scroll to head"
+"scroll to top (the head) of the log file"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/service.js:65
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:39
+msgid "Unable to read the contents"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/service.js:79
+msgid "Unable to read the service info"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/service.js:84
+msgid "Unable to read process list"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/service.js:89
+msgid "Unable to enumerate installed packages"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/service.js:104
+msgid "Error"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/service.js:146
+msgid "Unable to run service action."
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/service.js:163
+msgid "Unable to run sync_config.sh script."
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/service.js:168
+msgid "Unable to run restore-def-cfg.sh script."
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/service.js:234
+msgid "Cancel"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/service.js:238
+msgid "Reset settings"
+msgstr "Сбросить настройки"
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/service.js:244
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/service.js:338
+msgid "Reset settings to default"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/service.js:246
+msgid "All settings will be reset to default. Continue?"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/service.js:273
+msgid "Unable to enumerate installed packages"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/service.js:318
+msgid "Enable"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/service.js:320
+msgid "Disable"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/service.js:322
+msgid "Service autorun control"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/service.js:324
+msgid "Start"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/service.js:326
+msgid "Restart"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/service.js:328
+msgid "Stop"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/service.js:330
+msgid "Service daemons control"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/service.js:332
+msgid "Update"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/service.js:334
+msgid "Update HostLists"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/service.js:336
+msgid "Reset settings"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:24
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:29
+msgid "Expecting:"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:25
+msgid "One of the following:"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:25
+msgid "valid IP address"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:25
+msgid "valid address#port"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:30
+msgid "valid URL"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:51
+msgid "Settings"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:60
+msgid "Main settings"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:62
+msgid "FWTYPE"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:67
+msgid "POSTNAT"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:71
+msgid "FLOWOFFLOAD"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:77
+msgid "INIT_APPLY_FW"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:81
+msgid "DISABLE_IPV4"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:85
+msgid "DISABLE_IPV6"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:93
+msgid "MODE_FILTER"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:99
+msgid "WS_USER"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:103
+msgid "DAEMON_LOG_ENABLE"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:110
+msgid "NFQWS options"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:117
+msgid "Help"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:125
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:224
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:240
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:257
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:269
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:281
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:295
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:307
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:319
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:336
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:358
+msgid "Edit"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:152
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:361
+msgid "Example"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:157
+msgid "NFQWS_ENABLE"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:161
+msgid "DESYNC_MARK"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:166
+msgid "DESYNC_MARK_POSTNAT"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:171
+msgid "NFQWS_PORTS_TCP"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:175
+msgid "NFQWS_PORTS_UDP"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:179
+msgid "NFQWS_TCP_PKT_OUT"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:183
+msgid "NFQWS_TCP_PKT_IN"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:187
+msgid "NFQWS_UDP_PKT_OUT"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:191
+msgid "NFQWS_UDP_PKT_IN"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:195
+msgid "NFQWS_PORTS_TCP_KEEPALIVE"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:199
+msgid "NFQWS_PORTS_UDP_KEEPALIVE"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:209
+msgid "AutoHostList"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:211
+msgid "RETRANS_THRESHOLD"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:215
+msgid "FAIL_THRESHOLD"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:219
+msgid "FAIL_TIME"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:223
+msgid "Auto host list entries"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:229
+msgid "Auto host list"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:235
+msgid "DEBUGLOG"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:239
+msgid "Auto host debug list entries"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:245
+msgid "Auto host debug list"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:254
+msgid "Host lists"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:256
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:262
+msgid "Google hostname entries"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:263
+msgid "One hostname per line.<br />Examples:"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:268
+msgid "User hostname entries <HOSTLIST>"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:274
+msgid "User entries"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:275
+msgid "One hostname per line.<br />Examples:"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:280
+msgid "User excluded hostname entries"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:286
+msgid "User excluded entries"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:287
+msgid "One hostname per line.<br />Examples:"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:294
+msgid "Excluded IP entries"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:300
+msgid "Excluded IP filter"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:301
+msgid "Patterns can be strings or regular expressions. Each pattern in a separate line<br />Examples:"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:306
+msgid "User IP entries"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:312
+msgid "User IP filter"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:313
+msgid "Patterns can be strings or regular expressions. Each pattern in a separate line<br />Examples:"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:318
+msgid "User excluded IP entries"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:324
+msgid "User excluded IP filter"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:325
+msgid "Patterns can be strings or regular expressions. Each pattern in a separate line<br />Examples:"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:334
+msgid "Custom file #"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:347
+msgid "DISABLE_CUSTOM"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/settings.js:356
+msgid "custom.d script #"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/tools.js:61
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/tools.js:74
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/tools.js:269
+msgid "Running"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/tools.js:62
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/tools.js:73
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/tools.js:269
+msgid "Starting"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/tools.js:63
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/tools.js:72
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/tools.js:267
+msgid "Stopped"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/tools.js:64
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/tools.js:71
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/tools.js:265
+msgid "Disabled"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/tools.js:65
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/tools.js:70
+msgid "Error"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/tools.js:67
+msgid "Updating"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/tools.js:121
+msgid "Failed to get %s service info: %s"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/tools.js:131
+msgid "Command failed"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/tools.js:134
+msgid "Failed to get %s init status: %s"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/tools.js:141
+msgid "Command failed"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/tools.js:145
+msgid "Service action failed "%s %s": %s"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/tools.js:261
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/tools.js:262
+msgid "Unknown"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/tools.js:265
+msgid "Enabled"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/tools.js:273
+msgid "user entries only"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/tools.js:281
+msgid "Service autorun status"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/tools.js:289
+msgid "Service daemons status"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/tools.js:297
+msgid "FW type"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/tools.js:305
+msgid "HostLists update mode"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/tools.js:372
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/tools.js:412
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/tools.js:480
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/tools.js:553
+msgid "Dismiss"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/tools.js:378
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/tools.js:486
+msgid "Save"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/tools.js:389
+msgid "Contents have been saved."
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/tools.js:394
+msgid "Unable to save the contents"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/tools.js:406
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/tools.js:547
+msgid "Unable to read the contents"
+msgstr ""
+
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/tools.js:420
+#: zapret-openwrt/luci-app-zapret/htdocs/luci-static/resources/view/zapret/tools.js:559
+msgid "Loading"
+msgstr ""
