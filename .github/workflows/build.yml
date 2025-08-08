@@ -36,8 +36,8 @@ env:
   FAKE_BUILD: ${{ github.event.inputs.fake_build == 'true' }}
   MAX_SPEED: ${{ github.event.inputs.max_speed != 'false' }}
   TAG_SUFFIX: ${{ github.event.inputs.fake_build == 'true' && '-fake' || github.event.inputs.test_build == 'true' && '-test' || '' }}
-  REPO_URL: https://github.com/QMan0/zapret-openwrt
-  REPO_LNK: QMan0/zapret-openwrt
+  REPO_URL: https://github.com/remittor/zapret-openwrt
+  REPO_LNK: remittor/zapret-openwrt
   REPO_BRANCH: master
   BUILD_ROOT: ${{ github.workspace }}/builder
   BUILD_DATE: unknown
@@ -220,25 +220,6 @@ jobs:
           if [ "$FAKE_BUILD" = "false" ]; then
               ./scripts/feeds update base packages luci
               ./scripts/feeds install -a
-              
-            make package/luci-base/host/compile
-            PO2LMO="$(find staging_dir -type f -name po2lmo | head -n1)"
-            if [ ! -x "$PO2LMO" ]; then
-            echo "ERROR: po2lmo not found even after build!"
-            exit 1
-          fi
-          
-          LUCI_PO_DIR=package/zapret-openwrt/luci-app-zapret/po
-            if [ -d "$LUCI_PO_DIR" ]; then
-            echo "Compiling LuCI translations in $LUCI_PO_DIR"
-            for po in $LUCI_PO_DIR/*/*.po; do
-            lang_dir=$(dirname "$po")
-            lang=$(basename "$lang_dir")
-            out_file="$LUCI_PO_DIR/$lang/zapret.$lang.lmo"
-            "$PO2LMO" "$po" "$out_file"
-            echo "Compiled $po → $out_file"
-            done
-          fi
           fi
           echo "FAKE_BUILD=$FAKE_BUILD" >> $GITHUB_ENV
           echo "PKGVER=$PKGVER" >> $GITHUB_ENV
