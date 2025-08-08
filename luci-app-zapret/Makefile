@@ -28,4 +28,8 @@ endef
 
 include $(TOPDIR)/feeds/luci/luci.mk
 
+LUCI_I18N:=luci-app-zapret
+
+$(eval $(call BuildPackage,$(PKG_NAME)))
+
 # call BuildPackage - OpenWrt buildroot signature
