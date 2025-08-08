@@ -221,15 +221,15 @@ jobs:
               ./scripts/feeds update base packages luci
               ./scripts/feeds install -a
               
-          LUCI_PO_DIR=package/zapret-openwrt/luci-app-zapret/po
+            LUCI_PO_DIR=package/zapret-openwrt/luci-app-zapret/po
             if [ -d "$LUCI_PO_DIR" ]; then
                 echo "Compiling LuCI translations in $LUCI_PO_DIR"
-                for po in $LUCI_PO_DIR/*/*.po; do
-                lang_dir=$(dirname "$po")
-                lang=$(basename "$lang_dir")
-                out_file="$LUCI_PO_DIR/$lang/zapret.$lang.lmo"
-                ./scripts/po2lmo "$po" "$out_file"
-                echo "Compiled $po → $out_file"
+            for po in $LUCI_PO_DIR/*/*.po; do
+            lang_dir=$(dirname "$po")
+            lang=$(basename "$lang_dir")
+            out_file="$LUCI_PO_DIR/$lang/zapret.$lang.lmo"
+            $STAGING_DIR_HOST/bin/po2lmo "$po" "$out_file"
+            echo "Compiled $po → $out_file"
             done
             fi
           fi
