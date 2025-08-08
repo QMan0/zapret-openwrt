@@ -221,22 +221,24 @@ jobs:
               ./scripts/feeds update base packages luci
               ./scripts/feeds install -a
               
-          LUCI_PO_DIR=package/zapret-openwrt/luci-app-zapret/po
-          PO2LMO="$(find staging_dir -type f -name po2lmo | head -n1)"
+            make package/luci-base/host/compile
+            PO2LMO="$(find staging_dir -type f -name po2lmo | head -n1)"
             if [ ! -x "$PO2LMO" ]; then
-                echo "ERROR: po2lmo not found!"
-                exit 1
-            fi
+            echo "ERROR: po2lmo not found even after build!"
+            exit 1
+          fi
+          
+          LUCI_PO_DIR=package/zapret-openwrt/luci-app-zapret/po
             if [ -d "$LUCI_PO_DIR" ]; then
             echo "Compiling LuCI translations in $LUCI_PO_DIR"
-                for po in $LUCI_PO_DIR/*/*.po; do
-                lang_dir=$(dirname "$po")
+            for po in $LUCI_PO_DIR/*/*.po; do
+            lang_dir=$(dirname "$po")
             lang=$(basename "$lang_dir")
             out_file="$LUCI_PO_DIR/$lang/zapret.$lang.lmo"
             "$PO2LMO" "$po" "$out_file"
             echo "Compiled $po → $out_file"
             done
-            fi
+          fi
           fi
           echo "FAKE_BUILD=$FAKE_BUILD" >> $GITHUB_ENV
           echo "PKGVER=$PKGVER" >> $GITHUB_ENV
