@@ -36,8 +36,8 @@ env:
   FAKE_BUILD: ${{ github.event.inputs.fake_build == 'true' }}
   MAX_SPEED: ${{ github.event.inputs.max_speed != 'false' }}
   TAG_SUFFIX: ${{ github.event.inputs.fake_build == 'true' && '-fake' || github.event.inputs.test_build == 'true' && '-test' || '' }}
-  REPO_URL: https://github.com/remittor/zapret-openwrt
-  REPO_LNK: remittor/zapret-openwrt
+  REPO_URL: https://github.com/QMan0/zapret-openwrt
+  REPO_LNK: QMan0/zapret-openwrt
   REPO_BRANCH: master
   BUILD_ROOT: ${{ github.workspace }}/builder
   BUILD_DATE: unknown
