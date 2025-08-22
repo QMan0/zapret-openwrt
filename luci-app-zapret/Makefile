@@ -5,7 +5,7 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=luci-app-zapret
-PKG_VERSION:=71.20250808
+PKG_VERSION:=71.4
 PKG_LICENSE:=MIT
 PKG_MAINTAINER:=remittor <https://github.com/remittor>
 
@@ -27,9 +27,5 @@ exit 0
 endef
 
 include $(TOPDIR)/feeds/luci/luci.mk
-
-LUCI_I18N:=luci-app-zapret
-
-$(eval $(call BuildPackage,$(PKG_NAME)))
 
 # call BuildPackage - OpenWrt buildroot signature
